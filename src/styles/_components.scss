@@ -1,0 +1,72 @@
+#test {
+  height: 100vh;
+}
+
+.site-links, 
+.external-links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem;
+}
+
+.logo {
+  height: 3em;
+  filter: invert(98%) sepia(36%) saturate(2%) hue-rotate(248deg) brightness(116%) contrast(100%);
+}
+
+.logo:hover {
+  filter: invert(100%) sepia(31%) saturate(4538%) hue-rotate(177deg) brightness(106%) contrast(95%)
+}
+
+.troveql {
+  font-family: $troveql-font;
+  font-size: 5rem;
+}
+
+.test {
+  height: 100vh;
+}
+
+.large-text {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  border-radius: 1rem;
+  max-width: 40%;
+  min-width: 20rem;
+  gap: 1rem;
+  color: $font-dark;
+  a {
+    color: $font-dark
+  }
+  h3 {
+    text-align: center;
+    font-weight: 700;
+  }
+}
+
+.code-snippet {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: $dark-gray;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  max-width: 55%;
+}
+
+
+.code {
+  background-color: $mid-gray;
+  padding: 1.5rem;
+  border-radius: .5rem;
+  overflow: auto;
+}
+
+.metrics-video {
+  min-width: 55%;
+  background-color: $dark-gray;
+  height: 20rem;
+  border-radius: 1rem;
+}
