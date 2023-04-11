@@ -43,6 +43,9 @@ body {
   min-height: 100vh;
 }
 
+h1, h2, h3, h4, h5 {
+  font-family: $troveql-font;
+}
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -90,5 +93,9 @@ header {
   top: 0;
   padding: 2rem;
   box-shadow: 0 0 .5rem black;
+}
+
+strong {
+  font-weight: 800;
 }
 

@@ -17,7 +17,8 @@
 }
 
 #top-content, 
-#mid-content {
+#mid-content,
+#bottom-content {
   display: flex;
   flex-wrap: wrap;
   padding: 2rem;
@@ -32,4 +33,7 @@
 
 #bottom-content {
   background-color: $secondary-light;
+  h1 {
+    color: $secondary;
+  }
 }
