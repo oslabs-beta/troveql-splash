@@ -10,9 +10,14 @@
   padding: 1rem;
 }
 
-.logo {
+.logo,
+.logo-dark {
   height: 3em;
   filter: invert(98%) sepia(36%) saturate(2%) hue-rotate(248deg) brightness(116%) contrast(100%);
+}
+
+.logo-dark {
+  filter: none;
 }
 
 .logo:hover {
@@ -34,14 +39,14 @@
   padding: 2rem;
   border-radius: 1rem;
   max-width: 40%;
-  min-width: 20rem;
+  min-width: 25rem;
   gap: 1rem;
   color: $font-dark;
   a {
     color: $font-dark
   }
   h3 {
-    text-align: center;
+    //text-align: center;
     font-weight: 700;
   }
 }
@@ -62,6 +67,7 @@
   padding: 1.5rem;
   border-radius: .5rem;
   overflow: auto;
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 .metrics-video {
@@ -69,4 +75,21 @@
   background-color: $dark-gray;
   height: 20rem;
   border-radius: 1rem;
+}
+
+.diagram {
+  border-radius: 1rem;
+}
+
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: top;
+  justify-content: center;
+}
+
+.download-links{
+  display: flex;
+  gap: 3rem;
 }
