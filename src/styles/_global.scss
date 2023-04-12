@@ -46,13 +46,20 @@ body {
 h1, h2, h3, h4, h5 {
   font-family: $troveql-font;
 }
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
 
+h2 {
+  font-size: 2.8em;
+
+}
+
 h3 {
   font-size: 1.6rem;
+  font-weight: 700;
 }
 
 p {
@@ -82,17 +89,22 @@ header,
 footer {
   display: flex;
   justify-content: space-between;
-  height: 6rem;
+  align-items: center;
+  height: 4rem;
   background-color: $dark-gray;
   width: 100%;
 }
 
 header {
   position: fixed;
+  height: 6rem;
   left: 0;
   top: 0;
   padding: 2rem;
   box-shadow: 0 0 .5rem black;
+  b {
+    font-size: 1.3rem;
+  }
 }
 
 strong {
