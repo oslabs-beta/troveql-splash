@@ -1,5 +1,5 @@
 #App {
-  width: 100%;
+  width: 100vh;
   height: 100vh;
 }
 
@@ -9,14 +9,13 @@
   justify-content: center;
   align-items: center;
   min-height: 30rem;
-  background-image: 
-  linear-gradient(to bottom right, $primary, $secondary);
+  background-image: linear-gradient(to bottom right, $primary, $secondary);
   color: white;
   padding-top: 8rem;
   gap: 6rem;
 }
 
-#top-content, 
+#top-content,
 #mid-content,
 #bottom-content,
 #team-info {
@@ -40,8 +39,7 @@
 }
 
 #team-info {
-  background-image: 
-  linear-gradient(to bottom right, $secondary, $primary);
+  background-image: linear-gradient(to bottom right, $secondary, $primary);
   flex-direction: column;
   padding: 4rem;
 }
