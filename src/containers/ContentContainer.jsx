@@ -1,6 +1,4 @@
 import React from "react";
-import Highlight from "react-highlight";
-import { addEndpoints, fetchRequest } from "../util/code-snippets";
 import cacheFlow from '../assets/cache-flow.png';
 import windowsLogo from '../assets/windows.svg'
 import ubuntuLogo from '../assets/ubuntu.svg'
@@ -67,15 +65,6 @@ const ContentContainer = () => {
           </div>
         </div>
       </div>     
-       {/* <div className='code-snippet'>
-          <Highlight className='code'>
-            {addEndpoints}
-          </Highlight>
-          <Highlight className='code'>
-            {fetchRequest}
-          </Highlight>
-        </div>*/}
-
     </div>
   )
 }
