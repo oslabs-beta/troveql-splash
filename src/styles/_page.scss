@@ -43,3 +43,24 @@
   flex-direction: column;
   padding: 4rem;
 }
+
+/* Mobile styles */
+@media only screen and (max-width: 767px) {
+  #title-display {
+    min-height: 20rem;
+    padding-top: 4rem;
+    gap: 3rem;
+  }
+
+  #top-content,
+  #mid-content,
+  #bottom-content,
+  #team-info {
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  #team-info {
+    padding: 2rem;
+  }
+}
