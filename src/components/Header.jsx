@@ -3,6 +3,7 @@ import ghLogo from '../assets/logo-github.svg'
 import npmLogo from '../assets/logo-npm.svg'
 import liLogo from '../assets/logo-linkedin.svg'
 import troveLogo from '../assets/logo-trove.svg'
+import mediumLogo from '../assets/logo-medium.svg'
 
 const Header = () => {
 
@@ -12,18 +13,21 @@ const Header = () => {
         <a href="header">
           <img className="logo" src={troveLogo} alt="" />
         </a>
-        <a href="#download">Download</a>
-        <a href="#team-info">Meet the Team</a>
+        <a href="#download"><b>Download</b></a>
+        <a href="#team-info"><b>Meet the Team</b></a>
       </div>
       <div className="external-links">
         <a href="https://github.com/oslabs-beta/troveql">
-          <img className="logo" src={ghLogo} alt="" />
+          <img className="logo toobig" src={ghLogo} alt="" />
         </a>
         <a href="">
           <img className="logo" src={npmLogo} alt="" />
         </a>
+        <a href="https://www.linkedin.com/company/troveql/">
+          <img className="logo toobig" src={liLogo} alt="" />
+        </a>
         <a href="">
-          <img className="logo" src={liLogo} alt="" />
+          <img className="logo" src={mediumLogo} alt="" />
         </a>
       </div>
     </header>

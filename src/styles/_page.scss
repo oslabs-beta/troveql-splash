@@ -18,7 +18,8 @@
 
 #top-content, 
 #mid-content,
-#bottom-content {
+#bottom-content,
+#team-info {
   display: flex;
   flex-wrap: wrap;
   padding: 2rem;
@@ -33,7 +34,14 @@
 
 #bottom-content {
   background-color: $secondary-light;
-  h1 {
-    color: $secondary;
+  h2 {
+    color: $tertiary;
   }
+}
+
+#team-info {
+  background-image: 
+  linear-gradient(to bottom right, $secondary, $primary);
+  flex-direction: column;
+  padding: 4rem;
 }

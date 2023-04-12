@@ -6,13 +6,15 @@ import windowsLogo from '../assets/windows.svg'
 import ubuntuLogo from '../assets/ubuntu.svg'
 import appleLogo from '../assets/apple.svg'
 import npmLogo from '../assets/logo-npm.svg'
+import troveQL from '../assets/troveQL.svg'
+import troveQLgif from '../assets/troveql-demo.gif'
 
 const ContentContainer = () => {
 
   return (
     <div>
       <div id='title-display'>
-        <h1 className='troveql'>troveQL</h1>
+        <img className='troveql' src={troveQL} alt="" />
         <p>A GraphQL cache solution and monitoring platform</p>
       </div>
       <div id='top-content'>
@@ -26,16 +28,18 @@ const ContentContainer = () => {
         <img className='diagram' src={cacheFlow} alt="" />
       </div>
       <div id='mid-content'>
-        <div className='metrics-video'></div>
+        <div className='metrics-video'>
+          <img src={troveQLgif} alt="" />
+        </div>
         <div className='large-text'>
-          <h3>Monitor your Cache Performance</h3>
+          <h3>A Monitoring Tool for Your Intelligent Cache</h3>
           <p>The Trove Metrics companion desktop application pulls data directly from the TroveQL cache on your development server, providing vital data on performance. Watch in real time as your queries get routed to the right sub-cache. Know the response time for each query. Build confidence in your GraphQL API.</p>
           <p>Built on the popular Electron.js runtime framework, Trove Metrics can provide valuable insight on your cache during development in your Windows, Mac, or Linux IDE.</p>
           <div aria-hidden='true' id='download'></div>
         </div>
       </div>
       <div id='bottom-content'>
-        <h1>START HERE</h1>
+        <h2>START HERE</h2>
         <div className="columns">
           <div className='large-text'>
             <h3>NPM Package</h3>

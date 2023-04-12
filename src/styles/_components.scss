@@ -5,7 +5,7 @@
 .site-links, 
 .external-links {
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
   align-items: center;
   padding: 1rem;
 }
@@ -16,17 +16,22 @@
   filter: invert(98%) sepia(36%) saturate(2%) hue-rotate(248deg) brightness(116%) contrast(100%);
 }
 
-.logo-dark {
-  filter: none;
+.toobig {
+  height: 2.2em;
 }
 
+.logo-dark {
+  filter: invert(12%) sepia(7%) saturate(111%) hue-rotate(316deg) brightness(100%) contrast(80%)
+}
+
+.logo-dark:hover,
 .logo:hover {
-  filter: invert(100%) sepia(31%) saturate(4538%) hue-rotate(177deg) brightness(106%) contrast(95%)
+  filter: invert(85%) sepia(4%) saturate(100%) hue-rotate(251deg) brightness(101%) contrast(82%)
 }
 
 .troveql {
-  font-family: $troveql-font;
-  font-size: 5rem;
+  width: 25rem;
+
 }
 
 .test {
@@ -44,10 +49,6 @@
   color: $font-dark;
   a {
     color: $font-dark
-  }
-  h3 {
-    //text-align: center;
-    font-weight: 700;
   }
 }
 
@@ -71,9 +72,10 @@
 }
 
 .metrics-video {
-  min-width: 55%;
-  background-color: $dark-gray;
-  height: 20rem;
+  display: flex;
+  padding: 1rem;
+  background-color: $mid-gray;
+  height: 26rem;
   border-radius: 1rem;
 }
 
@@ -92,4 +94,46 @@
 .download-links{
   display: flex;
   gap: 3rem;
+}
+
+.engineer-card-cont {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.engineer-card {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  height: 15rem;
+  width: 24rem;
+  background-color: $mid-gray;
+  border-radius: 1rem;
+  box-shadow: .1rem .2rem .5rem $mid-gray;
+  gap: 1rem;
+  h5 {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+  .download-links {
+    gap: 2rem;
+  }
+}
+
+.profile-pic {
+  width: 12rem;
+  border-radius: 6rem;
+  border: .15rem solid $background;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 1rem;
 }
