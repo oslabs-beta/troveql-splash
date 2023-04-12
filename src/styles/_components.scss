@@ -160,3 +160,50 @@
   border-bottom: 1px solid rgb(107, 107, 107); /* Add a white border between links */
   font-size: 1.2rem;
 }
+
+@media only screen and (max-width: 767px) {
+  .site-links,
+  .external-links {
+    display: block;
+    padding: 0.5rem;
+  }
+
+  .logo,
+  .logo-dark {
+    height: 2.5em;
+    margin: 0.5rem 0;
+  }
+
+  .toobig {
+    height: 2em;
+  }
+
+  .large-text {
+    max-width: 100%;
+    min-width: 15rem; /* added min-width */
+  }
+
+  .code-snippet {
+    max-width: 100%;
+    min-width: 15rem; /* added min-width */
+  }
+
+  .metrics-video {
+    height: 16rem;
+  }
+
+  .engineer-card {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+  }
+
+  .profile-pic {
+    width: 8rem;
+    border-radius: 4rem;
+    margin-bottom: 1rem;
+  }
+}
