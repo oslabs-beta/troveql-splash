@@ -1,6 +1,9 @@
 import React from "react";
 import EngineerCard from "../components/EngineerCard";
-import samh from '../assets/samhenderson.jpeg'
+import samhenderson from '../assets/samhenderson.jpeg'
+import triciayeh from '../assets/triciayeh.jpg'
+import erikajung from '../assets/erikajung.jpeg'
+import alexklein from '../assets/alexklein.jpg'
 
 
 const Team = () => {
@@ -12,28 +15,28 @@ const Team = () => {
         <EngineerCard
           name='Tricia Yeh'
           title='Software Engineer'
-          pic=''
+          pic={triciayeh}
           gitHubLink='https://github.com/triciacorwin'
-          linkedInLink=''
+          linkedInLink='https://www.linkedin.com/in/tricia-yeh/'
         />
         <EngineerCard
-          name='Alex Klein'
+          name='Alex T Klein'
           title='Software Engineer'
-          pic=''
+          pic={alexklein}
           gitHubLink='https://github.com/a-t-klein'
-          linkedInLink=''
+          linkedInLink='https://www.linkedin.com/in/alex-t-klein-183aa758/'
         />
         <EngineerCard
           name='Erika Jung'
           title='Software Engineer'
-          pic=''
+          pic={erikajung}
           gitHubLink='https://github.com/erikahjung'
-          linkedInLink=''
+          linkedInLink='https://www.linkedin.com/in/erikahjung/'
         />
         <EngineerCard
           name='Sam Henderson'
           title='Software Engineer'
-          pic={samh}
+          pic={samhenderson}
           gitHubLink='https://github.com/samhhenderson'
           linkedInLink='https://www.linkedin.com/in/samuel-h-henderson/'
           />
