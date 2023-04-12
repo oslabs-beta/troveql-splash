@@ -2,7 +2,7 @@
   height: 100vh;
 }
 
-.site-links, 
+.site-links,
 .external-links {
   display: flex;
   gap: 1.5rem;
@@ -13,7 +13,8 @@
 .logo,
 .logo-dark {
   height: 3em;
-  filter: invert(98%) sepia(36%) saturate(2%) hue-rotate(248deg) brightness(116%) contrast(100%);
+  filter: invert(98%) sepia(36%) saturate(2%) hue-rotate(248deg)
+    brightness(116%) contrast(100%);
 }
 
 .toobig {
@@ -21,17 +22,18 @@
 }
 
 .logo-dark {
-  filter: invert(12%) sepia(7%) saturate(111%) hue-rotate(316deg) brightness(100%) contrast(80%)
+  filter: invert(12%) sepia(7%) saturate(111%) hue-rotate(316deg)
+    brightness(100%) contrast(80%);
 }
 
 .logo-dark:hover,
 .logo:hover {
-  filter: invert(85%) sepia(4%) saturate(100%) hue-rotate(251deg) brightness(101%) contrast(82%)
+  filter: invert(85%) sepia(4%) saturate(100%) hue-rotate(251deg)
+    brightness(101%) contrast(82%);
 }
 
 .troveql {
   width: 25rem;
-
 }
 
 .test {
@@ -48,7 +50,7 @@
   gap: 1rem;
   color: $font-dark;
   a {
-    color: $font-dark
+    color: $font-dark;
   }
 }
 
@@ -62,13 +64,13 @@
   max-width: 55%;
 }
 
-
 .code {
   background-color: $mid-gray;
   padding: 1.5rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   overflow: auto;
-  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Monaco, Consolas,
+    'Liberation Mono', 'Courier New', monospace;
 }
 
 .metrics-video {
@@ -91,7 +93,7 @@
   justify-content: center;
 }
 
-.download-links{
+.download-links {
   display: flex;
   gap: 3rem;
 }
@@ -102,7 +104,6 @@
   gap: 2rem;
   justify-content: center;
   align-items: center;
-
 }
 
 .engineer-card {
@@ -113,7 +114,7 @@
   width: 24rem;
   background-color: $mid-gray;
   border-radius: 1rem;
-  box-shadow: .1rem .2rem .5rem $mid-gray;
+  box-shadow: 0.1rem 0.2rem 0.5rem $mid-gray;
   gap: 1rem;
   h5 {
     font-family: inherit;
@@ -128,7 +129,7 @@
 .profile-pic {
   width: 12rem;
   border-radius: 6rem;
-  border: .15rem solid $background;
+  border: 0.15rem solid $background;
 }
 
 .profile-info {
@@ -136,4 +137,26 @@
   flex-direction: column;
   color: white;
   gap: 1rem;
+}
+
+#ml-container {
+  position: absolute;
+  top: 6rem; /* Change this value to match the height of your header */
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(38, 41, 40);
+  padding: 1rem 0; /* Add some padding to create space between links */
+}
+
+.ml-item {
+  display: block; /* Set display property to block */
+  width: 100%;
+  height: 4rem;
+  line-height: 4rem;
+  padding: 0 1rem; /* Add some padding to create space between links */
+  color: white;
+  text-align: center; /* Center align the links */
+  border-bottom: 1px solid rgb(107, 107, 107); /* Add a white border between links */
+  font-size: 1.2rem;
 }

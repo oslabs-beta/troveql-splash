@@ -1,0 +1,26 @@
+import React from 'react';
+import ghLogo from '../../assets/logo-github.svg';
+import npmLogo from '../../assets/logo-npm.svg';
+import liLogo from '../../assets/logo-linkedin.svg';
+import mediumLogo from '../../assets/logo-medium.svg';
+
+const ExternalLinks = () => {
+  return (
+    <div className="external-links">
+      <a href="https://github.com/oslabs-beta/troveql">
+        <img className="logo toobig" src={ghLogo} alt="" />
+      </a>
+      <a href="">
+        <img className="logo" src={npmLogo} alt="" />
+      </a>
+      <a href="https://www.linkedin.com/company/troveql/">
+        <img className="logo toobig" src={liLogo} alt="" />
+      </a>
+      <a href="">
+        <img className="logo" src={mediumLogo} alt="" />
+      </a>
+    </div>
+  );
+};
+
+export default ExternalLinks;
