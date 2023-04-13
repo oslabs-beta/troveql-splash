@@ -45,7 +45,7 @@
 }
 
 /* Mobile styles */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   #title-display {
     min-height: 20rem;
     padding-top: 4rem;
@@ -56,11 +56,7 @@
   #mid-content,
   #bottom-content,
   #team-info {
-    padding: 1rem;
+    padding: 0rem;
     gap: 1rem;
-  }
-
-  #team-info {
-    padding: 2rem;
   }
 }

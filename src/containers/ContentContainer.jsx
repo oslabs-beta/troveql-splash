@@ -41,7 +41,7 @@ const ContentContainer = () => {
       </div>
       <div id="mid-content">
         <div className="metrics-video">
-          <img src={troveQLgif} alt="" />
+          <img src={troveQLgif} alt="metrics" />
         </div>
         <div className="large-text">
           <h3>A Monitoring Tool for Your Intelligent Cache</h3>

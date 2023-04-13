@@ -13,11 +13,13 @@ const Header = ({ isOpen, setOpen }) => {
       <a href="header">
         <img className="logo" src={troveLogo} alt="" />
       </a>
-      {!isMobile && <InternalLinks />}
-      {!isMobile && <ExternalLinks />}
-      {isMobile && (
-        <MenuToggle isOpen={isOpen} toggle={() => setOpen(!isOpen)} />
-      )}
+      <div className="header-links">
+        {!isMobile && <InternalLinks />}
+        {!isMobile && <ExternalLinks />}
+        {isMobile && (
+          <MenuToggle isOpen={isOpen} toggle={() => setOpen(!isOpen)} />
+        )}
+      </div>
     </header>
   );
 };
