@@ -4,6 +4,7 @@ import liLogo from '../assets/logo-linkedin.svg';
 
 const EngineerCard = ({ name, title, pic, gitHubLink, linkedInLink }) => {
   return (
+    
     <div className="engineer-card">
       <img className="profile-pic" src={pic} alt="" />
       <div className="profile-info">
