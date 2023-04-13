@@ -19,7 +19,10 @@ const ContentContainer = () => {
           <h3>An Intelligent Cache for Your GraphQL API</h3>
           <p>
             TroveQL utilizes a caching algorithm based on the{' '}
-            <a src="https://www.cs.cmu.edu/~natassa/courses/15-721/papers/arcfast.pdf">
+            <a
+              href="http://www.usenix.org/events/fast03/tech/full_papers/megiddo/megiddo.pdf"
+              target="_blank"
+            >
               Adaptive Replacement Cache
             </a>
             , resulting in a performant, adaptive cache that tunes itself based
