@@ -11,10 +11,10 @@ function App() {
   return (
     <div id="App">
       <Header isOpen={isOpen} setOpen={setOpen} />
-      {!isOpen && <ContentContainer />}
-      {!isOpen && <Team />}
-      {!isOpen && <Footer />}
       {isOpen && <MobileLinks setOpen={setOpen} isOpen={isOpen} />}
+      <ContentContainer />
+      <Team />
+      <Footer />
     </div>
   );
 }

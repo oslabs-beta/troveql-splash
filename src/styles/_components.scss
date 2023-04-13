@@ -146,8 +146,9 @@
 }
 
 #ml-container {
-  position: absolute;
-  top: 6rem; /* Change this value to match the height of your header */
+  margin-top: 4rem;
+  z-index: 999;
+  top: 4rem; /* Change this value to match the height of your header */
   left: 0;
   width: 100%;
   height: 100%;
@@ -206,130 +207,19 @@
     width: 80%;
   }
 
-  .site-links,
-  .external-links {
-    display: flex;
-    gap: 1.5em;
-    align-items: center;
-    padding: 1em;
-    a {
-      color: white;
+  .engineer-card {
+    width: 100%;
+  }
+
+  .metrics-video {
+    width: 100%;
+    height: auto;
+    img {
+      width: 100%;
     }
-    a:hover {
-      text-decoration: underline;
-    }
-  }
-
-  .logo,
-  .logo-dark {
-    height: 2em;
-    filter: invert(98%) sepia(36%) saturate(2%) hue-rotate(248deg)
-      brightness(116%) contrast(100%);
-  }
-
-  .toobig {
-    height: 2.2em;
-  }
-
-  .logo-dark {
-    filter: invert(12%) sepia(7%) saturate(111%) hue-rotate(316deg)
-      brightness(100%) contrast(80%);
-  }
-
-  .logo-dark:hover,
-  .logo:hover {
-    filter: invert(85%) sepia(4%) saturate(100%) hue-rotate(251deg)
-      brightness(101%) contrast(82%);
-  }
-
-  .large-text {
-    display: flex;
-    max-width: 100%;
-    min-width: 0;
-    flex-direction: column;
-    padding: 2em;
-    border-radius: 1em;
-    gap: 1em;
-    color: $font-dark;
-    a {
-      color: $font-dark;
-    }
-  }
-
-  .code-snippet {
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-    background-color: $dark-gray;
-    padding: 1.5em;
-    border-radius: 1em;
-    max-width: 55%;
-  }
-
-  .code {
-    background-color: $mid-gray;
-    padding: 1.5em;
-    border-radius: 0.5em;
-    overflow: auto;
-    font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Monaco,
-      Consolas, 'Liberation Mono', 'Courier New', monospace;
-  }
-
-  .diagram {
-    border-radius: 1em;
   }
 
   .columns {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2em;
-    align-items: top;
-    justify-content: center;
-  }
-
-  .download-links {
-    display: flex;
-    gap: 3em;
-  }
-
-  .engineer-card-cont {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2em;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .engineer-card {
-    display: flex;
-    align-items: center;
-    padding: 1em;
-    height: 15em;
-    width: 24em;
-    background-color: $mid-gray;
-    border-radius: 1em;
-    box-shadow: 0.1em 0.2em 0.5em $mid-gray;
-    gap: 1em;
-    h5 {
-      font-family: inherit;
-      font-weight: 700;
-      font-size: 1.2em;
-    }
-    .download-links {
-      gap: 2em;
-    }
-  }
-
-  .profile-pic {
-    width: 12em;
-    border-radius: 6em;
-    border: 0.15em solid $background;
-  }
-
-  .profile-info {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    gap: 1em;
+    gap: 0rem;
   }
 }

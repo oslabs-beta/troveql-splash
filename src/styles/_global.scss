@@ -98,6 +98,8 @@ footer {
 }
 
 header {
+  z-index: 9999;
+
   position: fixed;
   height: 4rem;
   left: 0;
