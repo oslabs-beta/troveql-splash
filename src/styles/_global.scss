@@ -39,8 +39,7 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  min-height: 100%;
 }
 
 h1,
@@ -100,7 +99,7 @@ footer {
 
 header {
   position: fixed;
-  height: 6rem;
+  height: 4rem;
   left: 0;
   top: 0;
   padding: 2rem;
@@ -112,4 +111,9 @@ header {
 
 strong {
   font-weight: 800;
+}
+
+html,
+body {
+  max-width: 100%;
 }
