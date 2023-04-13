@@ -8,6 +8,12 @@
   gap: 1.5rem;
   align-items: center;
   padding: 1rem;
+  a {
+    color: white;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
 }
 
 .logo,
@@ -159,4 +165,37 @@
   text-align: center; /* Center align the links */
   border-bottom: 1px solid rgb(107, 107, 107); /* Add a white border between links */
   font-size: 1.2rem;
+}
+
+.header-links {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 767px) {
+  .metrics-video {
+    display: flex;
+    padding: 1rem;
+    background-color: $mid-gray;
+    border-radius: 1rem;
+    width: 80% img {
+      width: 80%;
+    }
+  }
+
+  .header-links {
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+  }
+
+  .troveql {
+    width: 80%;
+  }
+
+  .diagram {
+    width: 80%;
+  }
 }
