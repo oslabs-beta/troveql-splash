@@ -1,5 +1,5 @@
 #test {
-  height: 100vh;
+  height: auto;
 }
 
 .site-links,
@@ -43,7 +43,7 @@
 }
 
 .test {
-  height: 100vh;
+  height: 100%;
 }
 
 .large-text {
@@ -146,8 +146,9 @@
 }
 
 #ml-container {
-  position: absolute;
-  top: 6rem; /* Change this value to match the height of your header */
+  margin-top: 4rem;
+  z-index: 999;
+  top: 4rem; /* Change this value to match the height of your header */
   left: 0;
   width: 100%;
   height: 100%;
@@ -173,13 +174,20 @@
   justify-content: space-between;
 }
 
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
 @media only screen and (max-width: 767px) {
+  root {
+    max-width: 100vw;
+    max-height: 100vw;
+  }
   .metrics-video {
     display: flex;
-    padding: 1rem;
+    padding: 1em;
     background-color: $mid-gray;
-    border-radius: 1rem;
-    width: 80% img {
+    border-radius: 1em;
+    width: 80%;
+    img {
       width: 80%;
     }
   }
@@ -197,5 +205,21 @@
 
   .diagram {
     width: 80%;
+  }
+
+  .engineer-card {
+    width: 100%;
+  }
+
+  .metrics-video {
+    width: 100%;
+    height: auto;
+    img {
+      width: 100%;
+    }
+  }
+
+  .columns {
+    gap: 0rem;
   }
 }
