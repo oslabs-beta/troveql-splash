@@ -10,11 +10,11 @@ const EngineerCard = ({ name, title, pic, gitHubLink, linkedInLink }) => {
         <h5>{name}</h5>
         <p>{title}</p>
         <div className="download-links">
-          <a href={linkedInLink}>
+          <a href={linkedInLink} target="_blank">
             <img className="logo" src={liLogo} alt="" />
           </a>
-          <a href={gitHubLink}>
-            <img className="logo" src={ghLogo} alt="" />
+          <a href={gitHubLink} target="_blank">
+            <img className="logo" src={ghLogo} alt="" target="_blank" />
           </a>
         </div>
       </div>

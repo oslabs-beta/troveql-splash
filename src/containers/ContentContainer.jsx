@@ -19,7 +19,10 @@ const ContentContainer = () => {
           <h3>An Intelligent Cache for Your GraphQL API</h3>
           <p>
             TroveQL utilizes a caching algorithm based on the{' '}
-            <a src="https://www.cs.cmu.edu/~natassa/courses/15-721/papers/arcfast.pdf">
+            <a
+              href="http://www.usenix.org/events/fast03/tech/full_papers/megiddo/megiddo.pdf"
+              target="_blank"
+            >
               Adaptive Replacement Cache
             </a>
             , resulting in a performant, adaptive cache that tunes itself based
@@ -70,8 +73,8 @@ const ContentContainer = () => {
               blazing fast cache performance begins!
             </p>
             <div className="download-links">
-              <a href="">
-                <img className="logo-dark" src={npmLogo} alt="" />
+              <a href="https://www.npmjs.com/package/troveql" target="_blank">
+                <img className="logo-dark" src={npmLogo} alt="npm logo" />
               </a>
             </div>
           </div>
@@ -84,13 +87,28 @@ const ContentContainer = () => {
             </p>
             <div className="download-links">
               <a href="">
-                <img className="logo-dark" src={windowsLogo} alt="" />
+                <img
+                  className="logo-dark"
+                  src={windowsLogo}
+                  alt=""
+                  target="_blank"
+                />
               </a>
               <a href="">
-                <img className="logo-dark" src={appleLogo} alt="" />
+                <img
+                  className="logo-dark"
+                  src={appleLogo}
+                  alt=""
+                  target="_blank"
+                />
               </a>
               <a href="">
-                <img className="logo-dark" src={ubuntuLogo} alt="" />
+                <img
+                  className="logo-dark"
+                  src={ubuntuLogo}
+                  alt=""
+                  target="_blank"
+                />
               </a>
             </div>
           </div>
