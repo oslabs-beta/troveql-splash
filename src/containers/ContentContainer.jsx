@@ -86,7 +86,7 @@ const ContentContainer = () => {
               time.{' '}
             </p>
             <div className="download-links">
-              <a href="">
+              <a href="https://github.com/oslabs-beta/troveql/releases/download/v.1.0.0/TroveMetrics-1.0.0.Setup.exe">
                 <img
                   className="logo-dark"
                   src={windowsLogo}
@@ -94,7 +94,7 @@ const ContentContainer = () => {
                   target="_blank"
                 />
               </a>
-              <a href="">
+              <a href="https://github.com/oslabs-beta/troveql/releases/download/v.1.0.0/TroveMetrics-1.0.0-x64.dmg">
                 <img
                   className="logo-dark"
                   src={appleLogo}
@@ -102,7 +102,7 @@ const ContentContainer = () => {
                   target="_blank"
                 />
               </a>
-              <a href="">
+              <a href="https://github.com/oslabs-beta/troveql/releases/download/v.1.0.0/trovemetrics_1.0.0_amd64.deb">
                 <img
                   className="logo-dark"
                   src={ubuntuLogo}
