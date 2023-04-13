@@ -73,8 +73,8 @@ const ContentContainer = () => {
               blazing fast cache performance begins!
             </p>
             <div className="download-links">
-              <a href="">
-                <img className="logo-dark" src={npmLogo} alt="" />
+              <a href="https://www.npmjs.com/package/troveql" target="_blank">
+                <img className="logo-dark" src={npmLogo} alt="npm logo" />
               </a>
             </div>
           </div>
@@ -87,13 +87,28 @@ const ContentContainer = () => {
             </p>
             <div className="download-links">
               <a href="">
-                <img className="logo-dark" src={windowsLogo} alt="" />
+                <img
+                  className="logo-dark"
+                  src={windowsLogo}
+                  alt=""
+                  target="_blank"
+                />
               </a>
               <a href="">
-                <img className="logo-dark" src={appleLogo} alt="" />
+                <img
+                  className="logo-dark"
+                  src={appleLogo}
+                  alt=""
+                  target="_blank"
+                />
               </a>
               <a href="">
-                <img className="logo-dark" src={ubuntuLogo} alt="" />
+                <img
+                  className="logo-dark"
+                  src={ubuntuLogo}
+                  alt=""
+                  target="_blank"
+                />
               </a>
             </div>
           </div>

@@ -146,7 +146,7 @@
 }
 
 #ml-container {
-  margin-top: 4rem;
+  position: fixed;
   z-index: 999;
   top: 4rem; /* Change this value to match the height of your header */
   left: 0;

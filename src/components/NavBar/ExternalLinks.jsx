@@ -16,7 +16,10 @@ const ExternalLinks = () => {
       <a href="https://www.linkedin.com/company/troveql/" target="_blank">
         <img className="logo toobig" src={liLogo} alt="" />
       </a>
-      <a href="">
+      <a
+        href="https://medium.com/@shendo87/graphql-has-a-new-best-friend-80831fe412ac"
+        target="_blank"
+      >
         <img className="logo" src={mediumLogo} alt="" />
       </a>
     </div>
